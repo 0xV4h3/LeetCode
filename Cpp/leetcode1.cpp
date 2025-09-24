@@ -8,7 +8,7 @@ public:
         std::unordered_map<int, int> numIdx;
         for (int i = 0; i < nums.size(); ++i) {
             int complement = target - nums[i];
-            if (numIdx.count(complement))
+            if (numIdx.contains(complement) && numIdx[complement] != i)
                 return {numIdx[complement], i};
             numIdx[nums[i]] = i;
         }
