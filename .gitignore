@@ -1,6 +1,10 @@
+#####################
+# Python / PyCharm / VS Code
+#####################
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[cod]
+*.py[cod]$
 *$py.class
 
 # C extensions
@@ -114,3 +118,148 @@ docs/_build/
 
 # Test result files
 test-results/
+
+#####################
+# C# / .NET / Visual Studio
+#####################
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# MonoDevelop
+*.pidb
+
+# Rider
+.idea/
+*.sln.iml
+
+# Visual Studio cache files
+.vs/
+.vscode/
+
+# DotCover
+*.dotCover
+
+# NCrunch
+*.ncrunch*
+NCrunchTemp_*
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# VS Code workspace storage
+.vscode/
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NuGet
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+# NuGet v3's project.json files produces these
+project.json.lock.json
+
+# MSBuild Binary log
+*.binlog
+
+# Publish
+publish/
+out/
+
+#####################
+# C++ / CLion / CMake / Visual Studio
+#####################
+
+# CLion
+cmake-build-*/
+.idea/
+*.iml
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+build/
+_build/
+
+# Visual Studio C++
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.sdf
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.tlog
+
+# Compiled Object files
+*.obj
+*.o
+*.lo
+*.slo
+
+# Compiled Static libraries
+*.lib
+*.a
+*.lai
+
+# Compiled Dynamic libraries
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Debug files
+*.pdb
+*.idb
+
+# Qt Creator
+*.pro.user
+*.qbs.user
+*.moc/
+*.obj/
+*.rcc/
+*.ui/
+*.qrc/
+
+# CodeLite
+*.project
+*.workspace
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Others
+*.orig
