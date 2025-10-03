@@ -1,23 +1,23 @@
 ﻿namespace leetcode3100
 {
+    //3100. Water Bottles II
+    public class Solution
+    {
+        public int MaxBottlesDrunk(int numBottles, int numExchange)
+        {
+            int maxDrunk = numBottles;
+            while (numBottles >= numExchange)
+            {
+                numBottles -= numExchange - 1;
+                numExchange++;
+                maxDrunk++;
+            }
+            return maxDrunk;
+        }
+    }
+
     internal class Program
     {
-        //3100. Water Bottles II
-        public class Solution
-        {
-            public int MaxBottlesDrunk(int numBottles, int numExchange)
-            {
-                int maxDrunk = numBottles;
-                while (numBottles >= numExchange)
-                {
-                    numBottles -= numExchange - 1;
-                    numExchange++;
-                    maxDrunk++;
-                }
-                return maxDrunk;
-            }
-        }
-
         static void Main(string[] args)
         {
             var sol = new Solution();
