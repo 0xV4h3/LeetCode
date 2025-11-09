@@ -4,7 +4,7 @@
     public class MyHashMap
     {
         private List<List<KeyValuePair<int, int>>> _buckets;
-        private int _capacity = 10;
+        private int _capacity = 1000;
 
         public MyHashMap()
         {

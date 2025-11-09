@@ -6,7 +6,7 @@ namespace leetcode_705
     public class MyHashSet
     {
         private List<List<int>> _buckets;
-        private int _capacity = 10;
+        private int _capacity = 1000;
         public MyHashSet()
         {
             _buckets = new List<List<int>>(_capacity);
